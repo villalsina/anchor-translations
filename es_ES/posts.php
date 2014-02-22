@@ -2,73 +2,46 @@
 
 return array(
 
-	'posts' => 'Art&iacute;culos',
-	'create_post' => 'Crea un nuevo art&iacute;culo',
-	'created' => 'Creado',
-	'create' => 'Crear',
-	'by' => 'por',
-	'noposts' => 'No hay ning&uacute;n art&iacute;culo aun. &iquest;Por que no te animas a escribir uno?',
-	'return_posts' => 'Volver a Art&iacute;culos',
+	'posts' => 'Entradas',
 
-	'add_post' => 'A&ntilde;ade un art&iacute;culo',
-	'post' => 'Art&iacute;culo',
-	'customise' => 'Personalizar',
-	'customise_explain' => 'Aqu&iacute; puedes personalizar tu art&iacute;culo. This section is optional.',
-	'custom_fields' => 'Campos Personalizados',
-	'custom_fields_explain' => 'Crea un campo personalizado aqu&iacute;.',
-	'create_custom_field' => 'Crea un campo personalizado',
-	'comments' => 'Comentarios',
-	'comments_explain' => 'Aqu&iacute; puedes moderar los comentarios.',
-	'no_comments' => 'No hay comentarios.',
-	'edit_comment' => 'Editar Comentario',
-	'edit_comment_explain' => 'Actualiza el texto del comentario aqu&iacute;.',
+	'create_post' => 'Crear nueva entrada',
+	'noposts_desc' => '¡No tienes ninguna entrada!',
 
-	'publish' => 'Publicar',
-	'edit' => 'Editar',
-	'delete' => 'Eliminar',
-	'save' => 'Guardar',
-	'label' => 'Etiqueta',
-	'key' => 'Llave',
-	'editing' => 'Edici&oacute;n',
-	'editing_explain' => 'Algunos links &uacute;tiles.',
-	'view_post' => 'Ver el art&iacute;culo en el sitio',
+	// form fields
+	'title' => 'Título de la entrada',
+	'title_explain' => '',
+	'title_missing' => 'Por favor, introduce un título',
 
-	'draft' => 'Borrador',
-	'archived' => 'Archivado',
-	'published' => 'Publicado',
-	'pending' => 'Pendiente',
-	'spam' => 'Spam',
-	'update' => 'Actualizar',
-	'close' => 'Cerrar',
+	'content' => 'Contenido de la entrada',
+	'content_explain' => 'Simplemente escribe. ;)',
 
-	'custom_field' => 'Campo Personalizado',
-	'custom_field_explain' => 'Por favor, introduce una etiqueta y una llave para el campo personalizado.',
-	'missing_label' => 'Por favor, introduce una etiqueta de campo',
-	'missing_key' => 'Por favor, introduce una llave de campo',
+	'slug' => 'Indicador (slug)',
+	'slug_explain' => 'URI indicador que identifica tu página. Solo puede contener caracteres ASCII',
+	'slug_missing' => 'Por favor, introduce un URI indicador. Solo puede contener caracteres ASCII',
+	'slug_duplicate' => 'Este indicador ya está siendo usado',
+	'slug_invalid' => 'El indicador debe contenter letras',
 
-	'title' => 'T&iacute;tulo',
-	'title_explain' => 'El t&iacute;tulo de tu art&iacute;culo.',
-	'slug' => 'Nombre para el enlace permanente',
-	'slug_explain' => 'El nombre de enlace permanente para tu art&iacute;culo (<code id="output">slug</code>).',
-	'description' => 'Descripci&oacute;n',
-	'description_explain' => 'Un breve resumen del art&iacute;culo. Es utilizado en el RSS.',
-	'content' => 'Contenido',
-	'content_explain' => 'Contenido principal de tu art&iacute;culo. Disfruta de una saludable dosis de HTML validado.',
+	'description' => 'Descripción',
+	'description_explain' => '',
+
 	'status' => 'Estado',
-	'status_explain' => '&iquest;Quieres que el art&iacute;culo est&eacute; visible (publicado), pendiente (en borrador) u oculto (archivado)?',
-	'allow_comments' => 'Permitir comentarios',
-	'allow_comments_explain' => 'Esto va a permitir dejar comentarios a los usuarios.',
-	'custom_css' => 'CSS Personalizado',
-	'custom_css_explain' => 'CSS personalizado. Ser&aacute; insertado en un bloque <code>&lt;style&gt;</code>.',
-	'custom_js' => 'JS Personalizado',
-	'custom_js_explain' => 'Javascript personalizado. Ser&aacute; insertado en un bloque <code>&lt;script&gt;</code>.',
+	'status_explain' => '',
 
-	'missing_title' => 'Por favor, introduce un t&iacute;tulo',
-	'missing_description' => 'Por favor, introduce una descripci&oacute;n',
-	'missing_html' => 'Por favor, introduce tu c&oacute;digo HTML',
-	'duplicate_slug' => 'Ya existe un art&iacute;culo con el mismo nombre de enlace permanente, utiliza otro diferente por favor.',
-	'post_success_created' => 'Tu nuevo art&iacute;culo se ha a&ntilde;adido con exito',
-	'post_success_updated' => 'El art&iacute;culo se ha a&ntilde;adido con exito',
-	'post_success_deleted' => 'El art&iacute;culo se ha eliminado'
+	'category' => 'Categoría',
+	'category_explain' => '',
+
+	'allow_comments' => 'Permitir comentarios',
+	'allow_comments_explain' => '',
+
+	'custom_css' => 'CSS personalizado',
+	'custom_css_explain' => '',
+
+	'custom_js' => 'JS personalizado',
+	'custom_js_explain' => '',
+
+	// messages
+	'updated' => 'Tu artículo ha sido actualizado',
+	'created' => 'Tu artículo ha sido creado',
+	'deleted' => 'Tu artículo ha sido eliminado '
 
 );
