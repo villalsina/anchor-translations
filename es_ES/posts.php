@@ -2,17 +2,17 @@
 
 return array(
 
-	'posts' => 'Entradas',
+	'posts' => 'Publicaciones',
 
-	'create_post' => 'Crear nueva entrada',
-	'noposts_desc' => '¡No tienes ninguna entrada!',
+	'create_post' => 'Crear nueva publicación',
+	'noposts_desc' => '¡No tienes ninguna publicación!',
 
 	// form fields
-	'title' => 'Título de la entrada',
+	'title' => 'Título de la publicación',
 	'title_explain' => '',
 	'title_missing' => 'Por favor, introduce un título',
 
-	'content' => 'Contenido de la entrada',
+	'content' => 'Contenido de la publicación',
 	'content_explain' => 'Simplemente escribe. ;)',
 
 	'slug' => 'Indicador (slug)',
